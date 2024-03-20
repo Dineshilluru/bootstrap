@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flight Services</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  /* We can add our own styles here */
+</style>
+</head>
+<body background="../Images/shells.jpg" data-spy="scroll" data-target=".navbar" data-offset="50">
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">Flight Services</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+About Us
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="#about">Our Story</a>
+<a class="dropdown-item" href="#team">Our Team</a>
+<a class="dropdown-item" href="#mission">Our Mission</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Services
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="#services">Flight Booking</a>
+<a class="dropdown-item" href="#services">Hotel Booking</a>
+<a class="dropdown-item" href="#services">Car Rental</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#Company Details">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#login">Login</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<main>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" src="../Images/i1.jpg" alt="First slide">
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="../Images/i2.jpg" alt="Second slide">
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="../Images/i3.jpg" alt="Third slide">
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="../Images/i4.jpg" alt="fourth slide">
+</div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<div id="about" class="container">
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque tristique eros, eu condimentum velit auctor sit amet. Vestibulum nec ex eu ex laoreet commodo.</p>
+<a href="#" onclick="toggleOurStory(); return false;">Read Our Story</a>
+<div id="our-story" style="display: none;">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel culpa suscipit qui minima rerum necessitatibus, ut delectus assumenda? Atque sint, odio inventore quisquam sit harum eveniet totam qui enim, eaque aliquam eum fugiat illo dolorem impedit et magnam alias numquam ut accusantium dicta officiis aspernatur fuga. Repellendus illum magnam quo sapiente doloribus nesciunt est repellat sit perferendis incidunt quam eveniet commodi, blanditiis ad. Deserunt deleniti magnam unde fuga, totam atque officiis nesciunt facere mollitia, quibusdam, ab aspernatur consectetur quo nulla tenetur. Ipsum consequuntur eos molestiae? Dignissimos in natus eligendi fugiat praesentium ratione officiis corrupti voluptas molestias! Nam dolor beatae repudiandae.</p>
+</div>
+<a href="#" onclick="toggleOurTeam(); return false;">Read Our Team</a>
+<div id="our-team" style="display: none;">
+<h3>Our Team</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, soluta dignissimos doloremque quam doloribus vitae ab iure accusantium similique sed alias provident voluptatibus magni ducimus deserunt, maxime obcaecati quaerat natus inventore fugiat suscipit consequatur! Fugit inventore magni rerum? Quia nemo debitis qui magni sint, aperiam dolorem quam voluptatum cumque alias consequuntur facilis blanditiis veritatis. Rem aperiam placeat saepe repellat dolores perferendis deleniti facilis, dignissimos suscipit hic temporibus reprehenderit harum nemo dolorum impedit. Facere, totam ratione.</p>
+</div>
+<a href="#" onclick="toggleOurMission(); return false;">Read Our Mission</a>
+<div id="our-mission" style="display: none;">
+<h3>Our Mission</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nesciunt laudantium harum non, optio impedit veniam enim nobis perspiciatis, suscipit neque culpa soluta incidunt consequuntur, molestias tempora modi. Harum omnis totam ex, iste commodi vel architecto sed praesentium at aliquid, incidunt dolorum recusandae ut fugiat voluptas atque repellendus enim maiores et, nesciunt molestias consectetur laborum hic. Iusto aperiam numquam amet facilis neque architecto rerum distinctio consequatur nihil saepe atque voluptatem minus aut, in omnis cumque iure rem ut error reiciendis laudantium fuga alias! Eius sapiente corporis, nulla neque rem iusto?</p>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../Images/air asia.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card 1</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../Images/flights.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card 2</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../Images/spice jet.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card 3</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<footer>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+    <h5>Company Details</h5>
+    <p>123 Main Street, City Name</p>
+    <p>Phone: +1 (123) 456-7890</p>
+    <p>Email: info@example.com</p>
+    </div>
+    <div class="col-md-6">
+    <h5>Common Features</h5>
+    <ul>
+    <li>24/7 Customer Support</li>
+    <li>Secure Payment</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div id="map">
+      <div class="col-md-6">
+        <h5>Location</h5>
+        <iframe
+            width="100%"
+            height="200"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.320356955325!2d77.60559897412001!3d12.951340915324035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14babbc5d4b1%3A0x1d7f5537acdafeda!2sNovel%20Business%20Park!5e0!3m2!1sen!2sin!4v1710834233720!5m2!1sen!2sin" width="400" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+    </footer>
+    
+    
+  <script>
+  function toggleOurStory() {
+    var ourStory = document.getElementById("our-story");
+    if (ourStory.style.display === "none") {
+      ourStory.style.display = "block";
+    } else {
+      ourStory.style.display = "none";
+    }
+  }
+  
+  function toggleOurTeam() {
+    var ourTeam = document.getElementById("our-team");
+    if (ourTeam.style.display === "none") {
+      ourTeam.style.display = "block";
+    } else {
+      ourTeam.style.display = "none";
+    }
+  }
+  
+  function toggleOurMission() {
+    var ourMission = document.getElementById("our-mission");
+    if (ourMission.style.display === "none") {
+      ourMission.style.display = "block";
+    } else {
+      ourMission.style.display = "none";
+    }
+  }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  
